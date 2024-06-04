@@ -1,3 +1,3 @@
 print("Введите имя:")
-user_name=input()
+user_name = input()
 print("Привет, "+user_name+"!")

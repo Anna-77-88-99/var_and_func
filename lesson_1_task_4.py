@@ -1,5 +1,5 @@
 print("Введите имя:")
-first_name=input()
+first_name = input()
 print("Введите фамилию:")
-last_name=input()
+last_name = input()
 print("Вас зовут: "+first_name+" "+last_name)
