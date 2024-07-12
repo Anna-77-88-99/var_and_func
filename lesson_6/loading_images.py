@@ -13,4 +13,4 @@ four_img = WebDriverWait(driver, 20).until(EC.visibility_of_element_located((By.
 src = driver.find_element(By.CSS_SELECTOR, "#award").get_attribute("src")
 print(src)
 
-driver.quit
+driver.quit()

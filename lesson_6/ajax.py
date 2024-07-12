@@ -13,4 +13,4 @@ div_content = driver.find_element(By.CSS_SELECTOR, "#content")
 txt = div_content.find_element(By.CSS_SELECTOR, "p").text
 print(txt)
 
-driver.quit
+driver.quit()

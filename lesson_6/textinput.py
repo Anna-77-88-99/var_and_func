@@ -14,4 +14,4 @@ driver.find_element(By.CSS_SELECTOR, "#updatingButton").click()
 btn_txt = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.CSS_SELECTOR, "#updatingButton"))).text
 print(btn_txt)
 
-driver.quit
+driver.quit()
